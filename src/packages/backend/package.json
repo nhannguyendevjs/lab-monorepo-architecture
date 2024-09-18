@@ -1,0 +1,19 @@
+{
+  "name": "@lab/backend",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  },
+  "author": "Nhan Nguyen",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "pm2": "^5.4.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "figlet": "^1.7.0"
+  }
+}

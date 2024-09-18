@@ -1,0 +1,21 @@
+{
+  "name": "lab-monorepo-architecture",
+  "version": "1.0.0",
+  "description": "Lab monorepo architecture",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:frontend": "npm run -w @lab/frontend start",
+    "start:backend": "npm run -w @lab/backend start"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "author": "Nhan Nguyen",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
